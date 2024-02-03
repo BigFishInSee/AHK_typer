@@ -19,7 +19,7 @@ CheckMouseClick:
         ; Mouse click detected, start typing
         Loop, Parse, UserInput
         {
-	          Random, rand, 50,500
+	    Random, rand, 50,500
             SendInput, %A_LoopField%
             Sleep, rand
         }
